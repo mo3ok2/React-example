@@ -1,0 +1,43 @@
+.lang-wrapper {
+    text-align: center;
+    position: relative;
+}
+
+.languages-block {
+    margin: 0 auto;
+    background-color: #a8783f;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 200px;
+}
+
+.languages-block:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -15px;
+    z-index: 1;
+    border: solid 15px transparent;
+    border-bottom-color: #A8783C;
+}
+
+.lang-item {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.lang-item > div {
+    width: 33.33%;
+    text-align: left;
+}
+
+.lang-item-icon {
+    width: 20px;
+    height: 17px;
+}
